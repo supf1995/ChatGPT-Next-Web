@@ -169,9 +169,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>房源亮点小助手</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+              让亮点更亮眼!
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -196,32 +196,16 @@ function _Home() {
                 onClick={chatStore.deleteSession}
               />
             </div>
-            <div className={styles["sidebar-action"]}>
-              <IconButton
-                icon={<SettingsIcon />}
-                onClick={() => {
-                  setOpenSettings(true);
-                  setShowSideBar(false);
-                }}
-                shadow
-              />
-            </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
-              </a>
-            </div>
-          </div>
-          <div>
-            <IconButton
-              icon={<AddIcon />}
-              text={Locale.Home.NewChat}
-              onClick={() => {
-                createNewSession();
-                setShowSideBar(false);
-              }}
-              shadow
-            />
+            {/*<div className={styles["sidebar-action"]}>*/}
+            {/*  <IconButton*/}
+            {/*    icon={<SettingsIcon />}*/}
+            {/*    onClick={() => {*/}
+            {/*      setOpenSettings(true);*/}
+            {/*      setShowSideBar(false);*/}
+            {/*    }}*/}
+            {/*    shadow*/}
+            {/*  />*/}
+            {/*</div>*/}
           </div>
         </div>
 

@@ -9,7 +9,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 房源亮点助手 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -34,7 +34,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 房源亮点助手 的消息",
   },
   Memory: {
     Title: "历史记忆",
@@ -146,7 +146,7 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
+    DefaultTopic: "亮点润色",
     BotHello: "有什么可以帮你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
