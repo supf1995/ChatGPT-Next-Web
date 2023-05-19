@@ -196,16 +196,16 @@ function _Home() {
                 onClick={chatStore.deleteSession}
               />
             </div>
-            {/*<div className={styles["sidebar-action"]}>*/}
-            {/*  <IconButton*/}
-            {/*    icon={<SettingsIcon />}*/}
-            {/*    onClick={() => {*/}
-            {/*      setOpenSettings(true);*/}
-            {/*      setShowSideBar(false);*/}
-            {/*    }}*/}
-            {/*    shadow*/}
-            {/*  />*/}
-            {/*</div>*/}
+           <div className={styles["sidebar-action"]}>
+              <IconButton
+                icon={<SettingsIcon />}
+                onClick={() => {
+                  setOpenSettings(true);
+                  setShowSideBar(false);
+                }}
+                shadow
+              />
+            </div>
           </div>
         </div>
 
